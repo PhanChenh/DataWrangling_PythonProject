@@ -2,7 +2,7 @@
 
 ## Project overview, Background & Objectives:
 
-Dataset: attributes.data, exchange.data, and stock.data
+Dataset: attributes.data, exchange.data, stock.data, and strong_oak_security_master.csv
 
 As a data engineer at a small company called Euler, and you work with financial data. Primarily you are involved in maintaining lists of securities for clients, where securities trade on Stock Exchanges. One of your clients, "Strong Oak Security Management" has realised they need to outsource their security management, and they admit that their data is quite the mess. At Euler you have a platform to manage securites, so your job is to take their list of securities, and load it into Euler's proprietary security management platform.
 
