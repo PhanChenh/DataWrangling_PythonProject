@@ -1,6 +1,6 @@
 # Project Title: Data Wrangling Project - Securities Upload for Strong Oak Security Management
 
-## Project overview, Background & Objectives:
+## Project Overview, Background & Objectives:
 
 Dataset: attributes.data, exchange.data, stock.data, and strong_oak_security_master.csv
 
