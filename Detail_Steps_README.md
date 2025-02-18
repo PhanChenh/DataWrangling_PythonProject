@@ -7,7 +7,7 @@ You are a data engineer at a small company called Euler, and you work with finan
 
 This load is a multi-step process, firstly identifying valid securites, then uploading attributes for these, and then answering questions provided by the client. Securities may not be valid for numerous reasons such as no longer being traded on an exchange, and we are unable to load these securities. Ensure you read through this full document, including the notes section before beginning, and understand the requirements for each section.
 
-## Loading Securities into the platform (30%)
+## Loading Securities into the platform
 
 To load the securities into the platform you need the following identifiers:
 `MIC, QUEUESIP, Symbol, RequestId` where one of `QUEUESIP` or `Symbol` must be populated. It is important to include `MIC` as part of the identifiers, as the same security listed on different exchanges may return different results when querying data vendors.
@@ -36,7 +36,7 @@ Consider the following (without needing to communicate these in your response):
 * How many merges did your solution require?
 * Did you find many false positive matches that you had to filter out?
 
-## Uploading Attributes (25%)
+## Uploading Attributes
 
 Next, relevant attributes need to be uploaded. For explicitness, the platform requires these to be uploaded in *long format*. The exact format to be uploaded requires 3 columns: `EulerId, AttributeName, AttributeValue`. There should be no null values in the `AttributeValue` column. An example csv upload considering a subset of the attributes would be:
 
