@@ -20,10 +20,10 @@ Strong Oak Security Management has outsourced their security management to Euler
 ## Dataset
 
 The project uses the following datasets:
-- [attributes.data](Data/attributes.data)
-- [exchange.data](Data/exchange.data)
-- [stock.data](Data/stock.data)
-- [strong_oak_security_master.csv](Data/strong_oak_security_master.csv)
+- [attributes.data](Data/attributes.data): Includes various security attributes.
+- [exchange.data](Data/exchange.data): Provides exchange details like name and location.
+- [stock.data](Data/stock.data): Contains stock-related information, possibly including Symbol and QUEUESIP.
+- [strong_oak_security_master.csv](Data/strong_oak_security_master.csv): Contains the raw list of securities.
 
 These datasets contain information about securities, attributes, and exchanges, necessary for the validation and upload process.
 
@@ -74,9 +74,19 @@ python firstName_lastName_data_solutions.py
 - Data Cleaning & Transformation: Pandas DataFrame operations
 
 ## Results & Visualizations
-- Summary statistics of securities uploaded.
-- Distribution of valid vs. invalid securities.
 - Breakdown of missing data before and after processing.
+![before](https://github.com/user-attachments/assets/e6db559f-a352-4ccd-af85-5d4ae5e56b63)
+Figure 1: Validation and Breakdown Before Processing
+
+There are presence of missing data in stock (RequestId, Symbol, QUEUESIP, MIC), strong_oak_security_master (Ticker, QUEUESIP, Strong Oak Identifier), and attributes data (Asset Class, Inception Date, Return Since Inception).
+
+![after](https://github.com/user-attachments/assets/ed082976-9a04-44ff-ac98-ebfe65ae7702)
+Figure 2: Validation and Breakdown After Processing
+
+- No missing values for certain columns (e.g., EulerId, MIC).
+- No duplicate EulerId or RequestId after processing.
+- No invalid MIC values, indicating that only valid MICs are in the dataset.
+- No issues with Exchange Location format or invalid AttributeName.
 
 ## Recommendation
 - Automate the validation process to improve efficiency.
