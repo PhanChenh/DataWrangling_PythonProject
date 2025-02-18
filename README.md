@@ -1,5 +1,34 @@
 # Project Title: Data Wrangling Project - Securities Upload for Strong Oak Security Management
 
+## Table of Contents
+- [Overview](#overview)
+- [Dataset](#dataset)
+- [Objective](#objective)
+- [Analysis Approach](#analysis-approach)
+- [Association Rule Metrics](#Association-Rule-Metrics)
+- [Key Findings](#key-findings)
+- [How to run code](#how-to-run-code)
+- [Technologies Used](#technologies-used)
+- [Results](#results)
+- [Recommendation](#recommendation)
+- [Contact](#contact)
+
+## Overview
+
+Strong Oak Security Management has outsourced their security management to Euler, a financial data platform. Euler’s data engineering team is responsible for loading, processing, and validating security data from Strong Oak’s security master file.
+
+## Dataset
+
+The project uses the following datasets:
+- attributes.data
+- exchange.data
+- stock.data
+- strong_oak_security_master.csv
+
+
+
+------------
+
 ## Project Overview, Background & Objectives:
 
 Dataset: attributes.data, exchange.data, stock.data, and strong_oak_security_master.csv
