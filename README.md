@@ -48,7 +48,8 @@ The primary goal of this project is to clean, validate, and transform the securi
 - Ensure no null values exist in AttributeValue.
 - Save the attributes dataset in {firstName}_{lastName}_section2.csv.
 
-For detail steps, please view 
+**Noted:** For detail steps, please view [detail file](Detail_Steps_README.md)
+
 ## Key Findings
 
 - Some securities in the master file were invalid due to missing identifiers or being inactive.
