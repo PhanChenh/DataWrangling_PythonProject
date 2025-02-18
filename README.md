@@ -57,7 +57,7 @@ The primary goal of this project is to clean, validate, and transform the securi
 - Some false-positive matches were identified and removed.
 - The exchange.data file provided necessary location data for exchange names.
 
-# How to run code
+## How to run code
 
 1. Ensure all required datasets are stored in the /data directory.
 2. Install dependencies: pip install pandas os pathlib.
@@ -73,7 +73,7 @@ python firstName_lastName_data_solutions.py
 - File Formats: csv, .data
 - Data Cleaning & Transformation: Pandas DataFrame operations
 
-## Results & Visualizations
+## Results
 - Breakdown of missing data before and after processing.
 
 ![before](https://github.com/user-attachments/assets/e6db559f-a352-4ccd-af85-5d4ae5e56b63)
