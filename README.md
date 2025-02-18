@@ -60,16 +60,16 @@ The primary goal of this project is to clean, validate, and transform the securi
 # How to run code
 
 1. Ensure all required datasets are stored in the /data directory.
-2. Install dependencies: pip install pandas numpy.
+2. Install dependencies: pip install pandas os pathlib.
 3. Run the Python script that processes the data:
-```python
-python process_securities.py
 ```
-- The output CSV files will be saved in the specified directory.
+python firstName_lastName_data_solutions.py
+```
+- The output csv files will be saved in the specified directory.
 
 ## Technologies Used
 - Programming Language: Python
-- Libraries: pandas, numpy
+- Libraries: pandas, os, pathlib
 - File Formats: csv, .data
 - Data Cleaning & Transformation: Pandas DataFrame operations
 
