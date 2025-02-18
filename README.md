@@ -5,7 +5,6 @@
 - [Dataset](#dataset)
 - [Objective](#objective)
 - [Analysis Approach](#analysis-approach)
-- [Association Rule Metrics](#Association-Rule-Metrics)
 - [Key Findings](#key-findings)
 - [How to run code](#how-to-run-code)
 - [Technologies Used](#technologies-used)
